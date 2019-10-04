@@ -40,11 +40,7 @@ export default {
       getArtists(this.selectedCountry)
         .then(function(artists) {
           self.artists = artists
-<<<<<<< HEAD
           self.loading = false
-=======
-          selt.loading = false
->>>>>>> 9dddaf6c6682626598222773c54d13e834085746
         })
     }
   },
